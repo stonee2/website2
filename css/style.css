@@ -1,0 +1,106 @@
+/*
+Tutorial Name: Scroll To Top Then Fixed Navigation Effect With JQuery and CSS
+Description: Create a sticky navigation bar that remains fixed to the top after scroll
+Author: Stanislav Kostadinov
+Author URI: http://stanislav.it
+Version: 1.0.0 - 11.01.2014
+*/
+
+* {margin: 0; padding: 0;}
+.banner {
+	width: 100%;
+	height: 40vh;
+	background: url(../images/motorcycle.jpg) no-repeat center center; 
+  		-webkit-background-size: cover;
+  		-moz-background-size: cover;
+  		-o-background-size: cover;
+ 		background-size: cover;
+}
+
+/* Portrait and Landscape */
+@media screen 
+  and (max-width: 500px){
+  	.banner {
+  				height: 100vh;
+  			}
+  	.slantedBox{
+  		font-size:1vw;
+  	}
+}
+
+
+/*Backgrounds*/
+.bgBlack {
+	background-color: black;
+}
+.bgMaroon {
+	background-color: maroon;
+}
+hr{
+	color:lime;
+}
+
+/*Titles and Text*/
+h1{
+
+}
+h2{
+
+}
+h3{
+	color:white;
+}
+h4{
+
+}
+
+#about{
+	color:white;
+	padding:0 40px 20px 40px;
+	min-height:60vh;
+}
+#portfolio{
+	padding:0 40px 20px 40px;
+	min-height:60vh;
+}
+.thumb img{
+	width:100%;
+}
+.thumb{
+	margin-bottom:20px;
+}
+.jobTitle {
+	background-color: black;
+	color:white;
+	font-size: 20px;
+	left:25px;
+	padding: 6px 12px;
+	position: absolute;
+	transform: rotate(-10deg);
+	top:20px;
+	z-index: 99;
+
+}
+.evanPstone {
+	background-color: maroon;
+	color:white;
+	float:right;
+	font-size:45px;
+	left:45px;
+	padding: 8px 16px;
+	position: absolute;
+	top:48px;
+	z-index: 98;
+}
+.slantedBox {
+  background-color: black;
+  transform:rotate(-6deg);
+  color:lime;
+  padding: 5px;
+  z-index: 13;
+  position: absolute;
+  font-size: 22px;
+  margin: 0 auto;
+}
+
+
